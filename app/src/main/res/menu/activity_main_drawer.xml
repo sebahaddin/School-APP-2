@@ -5,33 +5,33 @@
         <item
             android:id="@+id/nav_notitie"
             android:icon="@drawable/ic_menu_notitie"
-            android:title="notitie" />
+            android:title="@string/action_notitie" />
         <item
             android:id="@+id/nav_agenda"
             android:icon="@drawable/ic_menu_agenda"
-            android:title="agenda" />
+            android:title="@string/action_agenda" />
         <item
             android:id="@+id/nav_contactenlijs"
             android:icon="@drawable/ic_menu_contactenlijst"
-            android:title="contactenlijst" />
+            android:title="@string/action_contactenlijst" />
 
         <item
             android:id="@+id/nav_thema"
             android:icon="@drawable/ic_menu_thema"
-            android:title="thema" />
+            android:title="@string/action_thema" />
 
         <item
             android:id="@+id/nav_email"
             android:icon="@drawable/ic_menu_email"
-            android:title="email" />
+            android:title="@string/action_email" />
     </group>
 
     <item android:title="Communicatie">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="contacts" />
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/action_settings" />
 
         </menu>
     </item>
