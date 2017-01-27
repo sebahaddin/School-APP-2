@@ -5,7 +5,7 @@
         <item
             android:id="@+id/nav_notitie"
             android:icon="@drawable/ic_menu_notitie"
-            android:title="Import" />
+            android:title="notitie" />
         <item
             android:id="@+id/nav_agenda"
             android:icon="@drawable/ic_menu_agenda"
@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_contactenlijs"
             android:icon="@drawable/ic_menu_contactenlijst"
-            android:title="contactenlijst1337" />
+            android:title="contactenlijst" />
 
         <item
             android:id="@+id/nav_thema"
@@ -23,15 +23,15 @@
         <item
             android:id="@+id/nav_email"
             android:icon="@drawable/ic_menu_email"
-            android:title="Tools" />
+            android:title="email" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Communicatie">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="contacts" />
 
         </menu>
     </item>

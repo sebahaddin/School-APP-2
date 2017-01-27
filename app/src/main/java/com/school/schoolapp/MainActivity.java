@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_contactenlijst) {
+        if (id == R.id.nav_share) {
             // Handle the camera action
         } else if (id == R.id.nav_agenda) {
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_thema) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_contactenlijs) {
 
         }
 
