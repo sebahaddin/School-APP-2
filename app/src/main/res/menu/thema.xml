@@ -3,6 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_thema"
         android:title="@string/action_thema"
-        android:orderInCategory="100"
+        android:orderInCategory="80"
         app:showAsAction="never" />
 </menu>

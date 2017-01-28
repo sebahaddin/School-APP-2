@@ -9,4 +9,7 @@
     <string name="action_notitie">notitie</string>
     <string name="action_thema">thema</string>
     <string name="action_contactenlijst">contactenlijst</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

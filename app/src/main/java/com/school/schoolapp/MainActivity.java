@@ -3,6 +3,7 @@ package com.school.schoolapp;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
             this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -81,17 +83,36 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_settings) {
-            // Handle the camera action
+           Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
+            settingsfragment settingsfragment = new settingsfragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, settingsfragment, settingsfragment.getTag()).commit();
+            Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_agenda) {
-
+            agendafragment agendafragment = new agendafragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, agendafragment, agendafragment.getTag()).commit();
+            Toast.makeText(this, "agenda", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_email) {
-
+            emailfragment emailfragment = new emailfragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, emailfragment, emailfragment.getTag()).commit();
+            Toast.makeText(this, "email", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_notitie) {
-
+           notitiefragment notitiefragment = new notitiefragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, notitiefragment, notitiefragment.getTag()).commit();
+            Toast.makeText(this, "notitie", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_thema) {
-
+            themafragment themafragment = new themafragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, themafragment, themafragment.getTag()).commit();
+            Toast.makeText(this, "thema", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_contactenlijs) {
-
+            contactenlijstfragment contactenlijstfragment = new contactenlijstfragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, contactenlijstfragment, contactenlijstfragment.getTag()).commit();
+            Toast.makeText(this, "contactenlijst", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
