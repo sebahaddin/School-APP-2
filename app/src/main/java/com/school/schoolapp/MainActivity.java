@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, themafragment, themafragment.getTag()).commit();
             Toast.makeText(this, "thema", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_contactenlijs) {
+        } else if (id == R.id.nav_contactenlijst) {
             contactenlijstfragment contactenlijstfragment = new contactenlijstfragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.relativeLayout_for_fragment, contactenlijstfragment, contactenlijstfragment.getTag()).commit();

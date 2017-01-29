@@ -11,7 +11,7 @@
             android:icon="@drawable/ic_menu_agenda"
             android:title="@string/action_agenda" />
         <item
-            android:id="@+id/nav_contactenlijs"
+            android:id="@+id/nav_contactenlijst"
             android:icon="@drawable/ic_menu_contactenlijst"
             android:title="@string/action_contactenlijst" />
 
