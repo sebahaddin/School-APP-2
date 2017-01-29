@@ -8,7 +8,12 @@
     <string name="action_notitie">notitie</string>
     <string name="action_thema">thema</string>
     <string name="action_contactenlijst">contactenlijst</string>
-
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Hallo1">F.Alibaks|f.alibaks@dalton-dordrecht.nl|Geschiedenis</string>
+    <string name="Hallo2">F.G.Baas|f.baas@dalton-dordrecht.nl|Wiskunde</string>
+    <string name="hallo3">J.E.M. van den Berg-Veenhuizen|j.berg@dalton-dordrecht.nl|Frans</string>
+    <string name="hallo4">N.C.J. van den Bemt | n.bemt@dalton-dordrecht.nl|Frans</string>
+    <string name="hallo5">E.A. Boogers| e.boogers@dalton-dordrecht.nl|geschiedenis</string>
+    <string name="hallo6">H.E.F. van Bilsen|l.bilsen@dalton-dordrecht.nl|Nederlands</string>
+    <string name="hallo7">C.H. De Bruin|c.bruin@dalton-dordrecht.nl|drama</string>
 </resources>
